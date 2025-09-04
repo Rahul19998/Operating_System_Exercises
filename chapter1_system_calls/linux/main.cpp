@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	ssize_t retIn{0};
 	ssize_t retOut{0};
 	char buffer[BUF_SIZE];
-        if(argc !=3)
+    if(argc !=3)
 	{
 		std::cerr << "Usage: cp <source> <detination>" << std::endl;
 		return Status::WRONGUSAGE;
